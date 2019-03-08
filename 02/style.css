@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0
+}
+body {
+	font-family: tahoma;
+	background: -webkit-radial-gradient(380px 200px,rgb(208, 240, 228) 18%,rgb(230, 224, 224) 43%,rgb(224, 194, 194) 50%,rgb(155, 162, 169) 70%,rgb(253, 220, 245) 100%);
+}
+.main {
+	width: 1024px;
+	margin: auto;
+}
+.title {
+	margin-top: 14px;
+	float: left;
+}
+#header {
+	width: 100%;
+	float: right;
+}
+.title h1 {
+	font-style: italic;
+}
+.title h2 {
+	font-size: 14px;
+    color: #c1adad;
+    margin: 5px 2px 0;
+}
+nav#menu {
+	display: flex;
+    float: right;
+    margin: 16px 0;
+}
+nav#menu ul li {
+	display: inline-block;
+	list-style: none;
+}
+nav#menu ul li a {
+	padding: 6px;
+    display: block;
+    font-size: 18px;
+}
+nav#menu ul li a:hover {
+	color: #D41414;
+}
+#website {
+	width: 100%;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.content {
+	width: 770px;
+	float: left;
+}
+article.post {
+	width: 100%;
+	border: 2px solid #ddd;
+	padding: 10px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+article.post h2 {
+	font-size: 16px;
+}
+article.post img {
+	float: right;
+    padding-left: 10px;
+    width: 302px;
+    height: 153px;
+}
+article.post .matn {
+	font-size: 14px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.remeber {
+	margin-top: 10px;
+	display: inline-block;
+}
+.sidebar {
+	width: 230px;
+    float: right;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 0px 10px;
+}
+aside.side {
+	border-bottom: 2px dashed #ddd;
+}
+aside.side h2 {
+	font-size: 16px;
+	padding: 10px 0px;
+}
+aside.side p {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+aside.side:last-child {
+	border-bottom: 0;
+}
